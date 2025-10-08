@@ -9,6 +9,5 @@
 # 文件名: diy-part1.sh
 # 描述: OpenWrt DIY 脚本第一部分 (更新 feeds 之前)
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
-
-
-
+git clone https://github.com/sirpdboy/luci-app-netspeedtest package/netspeedtest
+git clone https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskplan
