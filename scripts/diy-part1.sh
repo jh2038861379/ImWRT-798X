@@ -11,3 +11,5 @@
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 git clone https://github.com/sirpdboy/luci-app-netspeedtest package/netspeedtest
 git clone https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskplan
+git clone https://github.com/nikkinikki-org/OpenWrt-momo.git package/momo
+git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git package/nikki
