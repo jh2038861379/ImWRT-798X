@@ -14,3 +14,4 @@ git clone https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskpla
 git clone https://github.com/nikkinikki-org/OpenWrt-momo.git package/momo
 git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git package/nikki
 git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
+git clone https://github.com/EasyTier/luci-app-easytier.git package/easytier
