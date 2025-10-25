@@ -8,12 +8,18 @@
 ---
 
 ### 空间限制，部分插件可选择性安装
-Lucky大吉/万吉：    
+[Lucky大吉/万吉](https://lucky666.cn/)：    
+
 URL="https://release.66666.host"; curl -o /tmp/install.sh "$URL/install.sh" && sh /tmp/install.sh "$URL"    
 
 
-Nikki：    
+[[NiKKi](https://lucky666.cn/)](https://github.com/nikkinikki-org/OpenWrt-nikki):        
+
 wget -O - https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/install.sh | ash    
+
+[ShellCrash](https://github.com/juewuy/ShellCrash/blob/dev/README_CN.md):        
+
+export url='https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null    
 
 
 ---
@@ -56,9 +62,10 @@ wget -O - https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/in
   - 优化网络性能和稳定性
   - 支持安卓 USB 共享上网
   - 支持 USB 网卡和 USB 随身 WiFi
+  - 蜂窝5G模块支持
   - MediaTek HNAT 硬件加速
-  - Ksmbd 文件共享
-  - 默认管理地址：`192.168.2.1`，密码为空
+  - 异地组网
+  - 默认管理地址：`192.168.100.1`，密码为空
 - **小白友好** 🖱️：通过 GitHub Actions 的 **下拉列表** 选择设备型号，无需手动修改配置文件，简单直观，零基础用户也能轻松编译固件！
 
 ---
@@ -110,7 +117,7 @@ wget -O - https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/in
 ## 📚 源码
 - 本工作流基于 [padavanonly/immortalwrt-mt798x-24.10](https://github.com/padavanonly/immortalwrt-mt798x-24.10)。
 - 分支：`openwrt-24.10-6.6`。
-- 仓库：[hhCodingCat/ImWRT-798X](https://github.com/hhCodingCat/ImWRT-798X)。
+- 仓库：[jh2038861379/ImWRT-798X](https://github.com/jh2038861379/ImWRT-798X)。
 
 ---
 
