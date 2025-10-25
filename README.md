@@ -5,6 +5,13 @@
 
 这是一个用于自动编译 [ImmortalWrt 24.10](https://github.com/padavanonly/immortalwrt-mt798x-24.10) 固件的 **GitHub Actions 工作流**，专为基于 **MediaTek MT7981** 芯片的设备设计。支持定期检查源码更新、为多种设备型号编译固件，并将固件文件上传至 **GitHub Release** 和 **WebDAV**。通过直观的 **下拉列表** 选择设备型号，操作简单，特别适合 **小白和无经验用户** 快速上手！
 
+空间限制，部分插件可选择性安装
+Lucky大吉/万吉：
+URL="https://release.66666.host"; curl -o /tmp/install.sh "$URL/install.sh" && sh /tmp/install.sh "$URL"
+Nikki：
+wget -O - https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/install.sh | ash
+
+
 ---
 
 ## ✨ 功能亮点
