@@ -13,7 +13,7 @@
 URL="https://release.66666.host"; curl -o /tmp/install.sh "$URL/install.sh" && sh /tmp/install.sh "$URL"    
 
 
-[[NiKKi](https://lucky666.cn/)](https://github.com/nikkinikki-org/OpenWrt-nikki):        
+[NiKKi](https://github.com/nikkinikki-org/OpenWrt-nikki):        
 
 wget -O - https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/install.sh | ash    
 
