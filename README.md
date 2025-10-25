@@ -8,6 +8,8 @@
 空间限制，部分插件可选择性安装
 Lucky大吉/万吉：
 URL="https://release.66666.host"; curl -o /tmp/install.sh "$URL/install.sh" && sh /tmp/install.sh "$URL"
+
+
 Nikki：
 wget -O - https://github.com/nikkinikki-org/OpenWrt-nikki/raw/refs/heads/main/install.sh | ash
 
