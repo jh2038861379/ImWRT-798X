@@ -13,5 +13,7 @@ git clone https://github.com/sirpdboy/luci-app-netspeedtest package/netspeedtest
 git clone https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskplan
 git clone https://github.com/nikkinikki-org/OpenWrt-momo.git package/momo
 git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git package/nikki
+sed -i '/\/etc\/init\.d\/tailscale/d;/\/etc\/config\/tailscale/d;' feeds/packages/net/tailscale/Makefile
 git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
+git clone https://github.com/SunBK201/UA3F.git package/UA3F
 git clone https://github.com/EasyTier/luci-app-easytier.git package/easytier
